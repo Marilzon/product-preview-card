@@ -1,36 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/svg+xml"  href="./src/assets/images/icon-cart.svg">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Fraunces" rel="stylesheet">
+  <link rel="stylesheet" href="./src/css/styles.css">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Product preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
+  <div id="root">
 
-  Preview
+    <div class="perfume__card">
+      <figure class="perfume__figure">
+        <img class="desktop-perfume__picture" src="./src/assets/images/product-desktop.jpg" alt="perfume picture">
+        <img class="mobile-perfume__picture" src="./src/assets/images/product-mobile.jpg" alt="perfume picture">
+      </figure>
+      <div class="perfume__content">
+        <span class="perfume__type">PERFUME</span>
+        <h1 class="perfume__title">Gabrielle Essence Eau De Parfum</h1>
+        <p class="perfume__description"> A floral, solar and voluptuous interpretation composed by Olivier Polge,
+          Perfumer-Creator for the House of CHANEL.
+        </p>
 
-  Gabrielle Essence Eau De Parfum
+        <ul class="perfume__prices">
+          <li class="perfume__price--active">$149.99</li>
+          <li class="perfume__price--disabled">$169.99</li>
+        </ul>
 
-  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-  Perfumer-Creator for the House of CHANEL.
+        <button class="add-to-cart-button">
+          <img class="add-to-cart-button__icon" src="./src/assets/images/icon-cart.svg" alt="card item svg">
+          <p class="add-to-cart-button__paragraph">Add to Card</p>
+        </button>
+      </div>
+    </div>
 
-  $149.99
-  $169.99
-
-  Add to Cart
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Marilzon</a>.
+      <div class="attribution">
+        <p class="attibuiton__paragraph">Challenge by <a class="attibuiton__link"
+            href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend
+            Mentor</a>.</p>
+        <p class="attibuiton__paragraph">Coded by <a class="attibuiton__link" href="https://marilzon.github.io/maril-dev/"
+            target="_blank">Marilzon</a>.</p>
+      </div>
   </div>
 </body>
+
 </html>
