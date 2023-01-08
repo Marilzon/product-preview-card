@@ -12,7 +12,7 @@ Users should be able to:
 ### Links
 - Challenger URL: [https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
 - Solution URL: [https://github.com/Marilzon/product-preview-card](https://github.com/Marilzon/product-preview-card)
-- Live Site URL: [https://your-live-site-url.com](https://your-live-site-url.com)
+- Live Site URL: [https://marilzon.github.io/product-preview-card/](https://marilzon.github.io/product-preview-card/)
 
 ## My Process
 
