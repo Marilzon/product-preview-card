@@ -49,3 +49,4 @@ Here are some helpful resources that I used while working on this project:
 
 - [BEM methodology](https://en.bem.info/methodology/)
 - [CSS Grid documentation](https://developer.mozilla.org/en-US/docs/)
+- [Flexboxdocumentation](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox)
